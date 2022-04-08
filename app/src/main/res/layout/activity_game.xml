@@ -170,16 +170,31 @@
         android:backgroundTint="@color/design_default_color_error"
         android:fontFamily="@font/aclonica"
         android:text="New Game" />
-
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.5"
+    android:gravity="center">
     <TextView
         android:id="@+id/developer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="20dp"
-        android:layout_weight="0.5"
         android:fontFamily="@font/aclonica"
-        android:text="Developer: Niranjan Nayak"
+        android:text="Niranjan Nayak"
         android:textSize="18sp" />
+    <ImageView
+        android:id="@+id/connectWhatsapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/whatsapp"/>
+    <ImageView
+        android:id="@+id/connectMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/gmail"/>
+</LinearLayout>
 
 </LinearLayout>
